@@ -1,0 +1,117 @@
+/**************************************/
+/**************************************/
+/**************  INDEX  ***************/
+/**************************************/
+/**************************************/
+.index_wrapper{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.index_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 340px;
+    width: 300px;
+    padding: 24px;
+    background-color: #222222;
+    border-radius: 15px;
+}
+.index_box img{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+.index_box .signin_span{
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+.signin_btn{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin_btn span{
+    font-size: 1.2rem;
+}
+/* breaker */
+.index_or{
+    font-size: 1rem;
+    opacity: 55%;
+}
+.signup_btn{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #4c5699;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup_btn span{
+    font-size: 1.2rem;
+}
+/**************************************/
+/**************************************/
+/**************  LOGIN  ***************/
+/**************************************/
+/**************************************/
+.login_wrapper{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.login_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 340px;
+    width: 300px;
+    padding: 24px;
+    background-color: #222222;
+    border-radius: 15px;
+}
+.login_box img{
+    height: 60px;
+    width: 60px;
+    border-radius: 15px;
+}
+.login_box .login_span{
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+.login_box button{
+    height: 40px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+    color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+.login_box input{
+    height: 40px;
+    width: 240px;
+    padding: 15px;
+    border: 3px solid #333333;
+    border-radius: 10px;
+    background-color: #333333;
+    color: #F5F5F5;
+}
+.login_box input:focus{
+    outline: none;
+    border: 3px solid #4c5699;
+}
